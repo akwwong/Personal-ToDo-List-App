@@ -39,6 +39,10 @@ window.addEventListener('load', () => {
 
 // display each item in the todo array
 function displayTodos () {
+
+    // checks if there are any todos in console
+    console.log(todos)
+
     const todoList = document.querySelector('#todo-list')
 
     // clears all elements
